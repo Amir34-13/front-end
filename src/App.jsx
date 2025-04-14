@@ -3,7 +3,7 @@ import "./App.css";
 import NavBar from "./components/navbar/NavBar";
 import Auth from "./pages/auth/Auth";
 import Home from "./pages/home/Home";
-import BookDetail from "./pages/bookPage/bookDetails.jsx";
+import BookDetail from "./pages/bookPage/bookDetails";
 import UserProfile from "./pages/userPage/UserPage";
 import ResetPass from "./pages/auth/ResetPass";
 import SearchPage from "./pages/search/SearchPage";
