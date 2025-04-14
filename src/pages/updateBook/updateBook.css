@@ -1,0 +1,56 @@
+/* src/pages/updateBook.css */
+.update-book-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #f4f6f8;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.update-book-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.update-book-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-book-form label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+.update-book-form input,
+.update-book-form textarea {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.update-book-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.update-book-form button {
+  margin-top: 20px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-book-form button:hover {
+  background-color: #0d6efd;
+}

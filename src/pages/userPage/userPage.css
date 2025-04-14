@@ -1,0 +1,68 @@
+.user-profile {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.user-info h2 {
+  margin: 0;
+}
+
+.counts span {
+  margin-right: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button {
+  background: #0095f6;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #007cd1;
+}
+
+.book-section {
+  margin-top: 2rem;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 1rem;
+}
+
+.book-card {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 12px;
+  background: #f9f9f9;
+}
+
+.book-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
