@@ -5,6 +5,8 @@
   background-color: #343a40;
   color: white;
   padding: 15px 30px;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 .logo {
@@ -12,7 +14,8 @@
   font-weight: bold;
   flex: 2.5;
 }
-.logo a{
+
+.logo a {
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -39,4 +42,38 @@
 .search {
   font-size: 1.2rem;
   cursor: pointer;
+}
+
+/* Menu hamburger pour mobile */
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    margin-top: 10px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .search {
+    margin-top: 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
